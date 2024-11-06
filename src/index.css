@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 13%, 94%, 0.906);
+}
+.clock-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid hsl(0, 0%, 46%);
+    border-radius: 10px;
+
+}
+.display{
+    text-align: center;
+    font-weight:bold ;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 20px;
+}
+.control-buttons button{
+    margin: 10px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+}
+
+.start-btn{
+    background-color: hsl(120, 94%, 36%);
+}
+.start-btn:hover{
+    background-color: hsl(120, 94%, 26%);
+}
+
+.stop-btn{
+    background-color: hsla(358, 93%, 40%, 0.922);
+}
+.stop-btn:hover{
+    background-color: hsla(358, 93%, 34%, 0.922);
+}
+
+.reset-btn{
+    background-color: hsla(256, 90%, 40%, 0.932);
+}
+.reset-btn:hover{
+    background-color: hsla(256, 90%, 34%, 0.932);
+}
